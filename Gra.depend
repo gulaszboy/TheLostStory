@@ -1,0 +1,887 @@
+# depslib dependency file v1.0
+1486252738 source:c:\users\gra¿yna\desktop\folder kamila\gra\main.cpp
+	<iostream>
+	"Mapa.h"
+
+1486250405 c:\users\gra¿yna\desktop\folder kamila\gra\include\mapa.h
+	<iostream>
+
+1486254082 source:c:\users\gra¿yna\desktop\folder kamila\gra\src\mapa.cpp
+	"Mapa.h"
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+
+1490210508 source:c:\users\kamil\desktop\folder kamila\gra\main.cpp
+	<iostream>
+	<cstdlib>
+	<conio.h>
+	<windows.h>
+	"Map.h"
+	"Unit.h"
+	"Hero.h"
+	"Enemy.h"
+	"Combat.h"
+	"Game.h"
+	"Funkcje.h"
+	"Room.h"
+	"Ekwipunek.h"
+	"QuestMenager.h"
+
+1486411080 c:\users\kamil\desktop\folder kamila\gra\include\mapa.h
+	<iostream>
+
+1486909263 source:c:\users\kamil\desktop\folder kamila\gra\src\mapa.cpp
+	"Mapa.h"
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+	<windows.h>
+
+1487674364 source:c:\users\kamil\desktop\folder kamila\gra\src\unit.cpp
+	"Unit.h"
+
+1488835071 c:\users\kamil\desktop\folder kamila\gra\include\unit.h
+	<iostream>
+	<string>
+
+1489263621 c:\users\kamil\desktop\folder kamila\gra\include\hero.h
+	<Unit.h>
+	"Enemy.h"
+
+1489342821 source:c:\users\kamil\desktop\folder kamila\gra\src\hero.cpp
+	<string>
+	<iostream>
+	<time.h>
+	<cstdlib>
+	<conio.h>
+	"Funkcje.h"
+	"Hero.h"
+
+1489096420 c:\users\kamil\desktop\folder kamila\gra\include\game.h
+	"Map.h"
+	"Hero.h"
+	<fstream>
+	<string>
+
+1490448364 source:c:\users\kamil\desktop\folder kamila\gra\src\game.cpp
+	"Game.h"
+	"Funkcje.h"
+	"Enemy.h"
+	"Ekwipunek.h"
+	"Questy.h"
+	"Dialogi.h"
+	"QuestMenager.h"
+	<fstream>
+	<iostream>
+	<cstdlib>
+	<string>
+	<conio.h>
+
+1489530512 c:\users\kamil\desktop\folder kamila\gra\include\funkcje.h
+	<iostream>
+	"Hero.h"
+	"Map.h"
+
+1489530524 source:c:\users\kamil\desktop\folder kamila\gra\src\funkcje.cpp
+	<iostream>
+	<cstdlib>
+	<sstream>
+	<time.h>
+	<conio.h>
+	"Map.h"
+	"Funkcje.h"
+	"Hero.h"
+	"windows.h"
+
+1490307799 source:c:\users\kamil\desktop\folder kamila\gra\src\combat.cpp
+	"Combat.h"
+	"Room.h"
+	<time.h>
+	<cstdlib>
+	<math.h>
+	<windows.h>
+	<conio.h>
+
+1487674356 c:\users\kamil\desktop\folder kamila\gra\include\combat.h
+	"Hero.h"
+	"Enemy.h"
+	"Funkcje.h"
+	"Map.h"
+
+1490263082 c:\users\kamil\desktop\folder kamila\gra\include\enemy.h
+	<Unit.h>
+
+1490450926 source:c:\users\kamil\desktop\folder kamila\gra\src\enemy.cpp
+	"Enemy.h"
+	<fstream>
+	<cstdlib>
+	"Funkcje.h"
+
+1490307740 c:\users\kamil\desktop\folder kamila\gra\include\map.h
+	<iostream>
+	"Room.h"
+
+1490450959 source:c:\users\kamil\desktop\folder kamila\gra\src\map.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<conio.h>
+	"Room.h"
+	"Map.h"
+	"Funkcje.h"
+
+1490450470 source:c:\users\kamil\desktop\folder kamila\gra\src\room.cpp
+	"Room.h"
+	"Funkcje.h"
+	"NPC.h"
+	<fstream>
+	<iostream>
+	<cstdlib>
+	<sstream>
+
+1490450348 c:\users\kamil\desktop\folder kamila\gra\include\room.h
+	"NPC.h"
+	<iostream>
+
+1487674356 source:c:\users\kamil\downloads\gra-20170221t200752z\gra\main.cpp
+	<iostream>
+	<cstdlib>
+	"Map.h"
+	"Unit.h"
+	"Hero.h"
+	"Enemy.h"
+	"Combat.h"
+	"Game.h"
+	"Funkcje.h"
+	"Room.h"
+
+1487674360 c:\users\kamil\downloads\gra-20170221t200752z\gra\include\map.h
+	<iostream>
+	"Room.h"
+
+1487674362 c:\users\kamil\downloads\gra-20170221t200752z\gra\include\room.h
+
+1487674362 c:\users\kamil\downloads\gra-20170221t200752z\gra\include\unit.h
+	<iostream>
+	<string>
+
+1487674360 c:\users\kamil\downloads\gra-20170221t200752z\gra\include\hero.h
+	<Unit.h>
+
+1487674356 c:\users\kamil\downloads\gra-20170221t200752z\gra\include\enemy.h
+	<Unit.h>
+
+1487674356 c:\users\kamil\downloads\gra-20170221t200752z\gra\include\combat.h
+	"Hero.h"
+	"Enemy.h"
+	"Funkcje.h"
+	"Map.h"
+
+1487674356 c:\users\kamil\downloads\gra-20170221t200752z\gra\include\funkcje.h
+	<iostream>
+	"Hero.h"
+
+1487674360 c:\users\kamil\downloads\gra-20170221t200752z\gra\include\game.h
+	<fstream>
+	<string>
+
+1487674362 source:c:\users\kamil\downloads\gra-20170221t200752z\gra\src\combat.cpp
+	"Combat.h"
+	<time.h>
+	<cstdlib>
+	<math.h>
+	"Room.h"
+	<windows.h>
+
+1487674362 source:c:\users\kamil\downloads\gra-20170221t200752z\gra\src\enemy.cpp
+	"Enemy.h"
+	<fstream>
+	<cstdlib>
+	"Funkcje.h"
+
+1487674362 source:c:\users\kamil\downloads\gra-20170221t200752z\gra\src\funkcje.cpp
+	<iostream>
+	"Funkcje.h"
+	<cstdlib>
+	"Hero.h"
+	<sstream>
+	"windows.h"
+
+1487674362 source:c:\users\kamil\downloads\gra-20170221t200752z\gra\src\game.cpp
+	"Game.h"
+	<fstream>
+	<iostream>
+	<cstdlib>
+	<string>
+
+1487674364 source:c:\users\kamil\downloads\gra-20170221t200752z\gra\src\hero.cpp
+	"Hero.h"
+	<string>
+	<iostream>
+
+1487674364 source:c:\users\kamil\downloads\gra-20170221t200752z\gra\src\map.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<conio.h>
+	"Room.h"
+	"Map.h"
+
+1487674364 source:c:\users\kamil\downloads\gra-20170221t200752z\gra\src\room.cpp
+	"Room.h"
+	<fstream>
+	<iostream>
+	<cstdlib>
+	"Funkcje.h"
+	<sstream>
+
+1487674364 source:c:\users\kamil\downloads\gra-20170221t200752z\gra\src\unit.cpp
+	"Unit.h"
+
+1489689076 c:\users\kamil\desktop\folder kamila\gra\include\ekwipunek.h
+	<iostream>
+	"Hero.h"
+	"Map.h"
+
+1489689114 source:c:\users\kamil\desktop\folder kamila\gra\src\ekwipunek.cpp
+	<iostream>
+	<cstdlib>
+	<sstream>
+	<time.h>
+	<conio.h>
+	"Ekwipunek.h"
+	"Map.h"
+	"Funkcje.h"
+	"Hero.h"
+	"windows.h"
+
+1490205526 c:\users\kamil\desktop\folder kamila\gra\include\questy.h
+
+1490206080 source:c:\users\kamil\desktop\folder kamila\gra\src\questy.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	"Questy.h"
+
+1489872630 source:c:\users\kamil\desktop\folder kamila\gra\src\dialogi.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<string>
+	<conio.h>
+	"Funkcje.h"
+	"Dialogi.h"
+
+1489351783 c:\users\kamil\desktop\folder kamila\gra\include\dialogi.h
+
+1489872318 source:c:\users\kamil\desktop\folder kamila\gra\src\npc.cpp
+	"NPC.h"
+	<fstream>
+	<cstdlib>
+
+1489871584 c:\users\kamil\desktop\folder kamila\gra\include\npc.h
+	<iostream>
+
+1490450523 source:c:\users\kamil\desktop\folder kamila\gra\src\questmenager.cpp
+	"QuestMenager.h"
+	"Map.h"
+	"Funkcje.h"
+	<fstream>
+	<iostream>
+	<sstream>
+	<cstdlib>
+
+1490435179 c:\users\kamil\desktop\folder kamila\gra\include\questmenager.h
+	"Map.h"
+
+1490819854 source:c:\gra\main.cpp
+	<iostream>
+	<cstdlib>
+	<conio.h>
+	<windows.h>
+	"Map.h"
+	"Unit.h"
+	"Hero.h"
+	"Enemy.h"
+	"Combat.h"
+	"Game.h"
+	"Funkcje.h"
+	"Room.h"
+	"Ekwipunek.h"
+	"QuestMenager.h"
+
+1490311340 c:\gra\include\map.h
+	<iostream>
+	"Room.h"
+
+1490817127 c:\gra\include\room.h
+	"NPC.h"
+	<iostream>
+
+1489875184 c:\gra\include\npc.h
+	<iostream>
+
+1490731256 c:\gra\include\unit.h
+	<iostream>
+	<string>
+
+1490731366 c:\gra\include\hero.h
+	<Unit.h>
+	"Enemy.h"
+
+1490266682 c:\gra\include\enemy.h
+	<Unit.h>
+
+1490630923 c:\gra\include\combat.h
+	"Hero.h"
+	"Enemy.h"
+	"Funkcje.h"
+	"Map.h"
+
+1490809749 c:\gra\include\funkcje.h
+	<iostream>
+	"Hero.h"
+	"Map.h"
+
+1490558975 c:\gra\include\game.h
+	"Map.h"
+	"Hero.h"
+	"QuestMenager.h"
+	"Combat.h"
+	<fstream>
+	<string>
+
+1489692676 c:\gra\include\ekwipunek.h
+	<iostream>
+	"Hero.h"
+	"Map.h"
+
+1490621536 c:\gra\include\questmenager.h
+	"Map.h"
+	"Hero.h"
+
+1490813452 source:c:\gra\src\combat.cpp
+	"Combat.h"
+	"Room.h"
+	"Funkcje.h"
+	<time.h>
+	<cstdlib>
+	<math.h>
+	<windows.h>
+	<conio.h>
+
+1490822797 source:c:\gra\src\dialogi.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<string>
+	<conio.h>
+	"Funkcje.h"
+	"Dialogi.h"
+
+1489355383 c:\gra\include\dialogi.h
+
+1491040962 source:c:\gra\src\ekwipunek.cpp
+	<iostream>
+	<cstdlib>
+	<sstream>
+	<time.h>
+	<conio.h>
+	"Ekwipunek.h"
+	"Map.h"
+	"Funkcje.h"
+	"Hero.h"
+	"windows.h"
+
+1490730933 source:c:\gra\src\enemy.cpp
+	"Enemy.h"
+	<fstream>
+	<cstdlib>
+	"Funkcje.h"
+
+1490821631 source:c:\gra\src\funkcje.cpp
+	<iostream>
+	<cstdlib>
+	<sstream>
+	<time.h>
+	<conio.h>
+	"Map.h"
+	"Funkcje.h"
+	"Hero.h"
+	"windows.h"
+	"Tutorial.h"
+
+1490823098 source:c:\gra\src\game.cpp
+	"Game.h"
+	"Funkcje.h"
+	"Enemy.h"
+	"Ekwipunek.h"
+	"Questy.h"
+	"Dialogi.h"
+	"QuestMenager.h"
+	"Combat.h"
+	<fstream>
+	<iostream>
+	<cstdlib>
+	<string>
+	<conio.h>
+
+1490209126 c:\gra\include\questy.h
+
+1490860449 source:c:\gra\src\hero.cpp
+	<string>
+	<iostream>
+	<time.h>
+	<cstdlib>
+	<conio.h>
+	<fstream>
+	<sstream>
+	"Funkcje.h"
+	"Hero.h"
+
+1490812190 source:c:\gra\src\map.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<conio.h>
+	"Room.h"
+	"Map.h"
+	"Funkcje.h"
+
+1490600946 source:c:\gra\src\npc.cpp
+	"NPC.h"
+	<fstream>
+	<cstdlib>
+
+1490860889 source:c:\gra\src\questmenager.cpp
+	"QuestMenager.h"
+	"Map.h"
+	"Funkcje.h"
+	"Hero.h"
+	<fstream>
+	<iostream>
+	<sstream>
+	<cstdlib>
+
+1490209680 source:c:\gra\src\questy.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	"Questy.h"
+
+1490861210 source:c:\gra\src\room.cpp
+	"Room.h"
+	"Funkcje.h"
+	"NPC.h"
+	<fstream>
+	<iostream>
+	<cstdlib>
+	<sstream>
+
+1487677964 source:c:\gra\src\unit.cpp
+	"Unit.h"
+
+1490810452 source:c:\gra\src\tutorial.cpp
+	<iostream>
+	<windows.h>
+	"Funkcje.h"
+
+1490808944 c:\gra\include\tutorial.h
+	<iostream>
+	"Funkcje.h"
+
+1490819854 source:c:\gra final\gra\main.cpp
+	<iostream>
+	<cstdlib>
+	<conio.h>
+	<windows.h>
+	"Map.h"
+	"Unit.h"
+	"Hero.h"
+	"Enemy.h"
+	"Combat.h"
+	"Game.h"
+	"Funkcje.h"
+	"Room.h"
+	"Ekwipunek.h"
+	"QuestMenager.h"
+
+1490311340 c:\gra final\gra\include\map.h
+	<iostream>
+	"Room.h"
+
+1490817127 c:\gra final\gra\include\room.h
+	"NPC.h"
+	<iostream>
+
+1489875184 c:\gra final\gra\include\npc.h
+	<iostream>
+
+1490731256 c:\gra final\gra\include\unit.h
+	<iostream>
+	<string>
+
+1490731366 c:\gra final\gra\include\hero.h
+	<Unit.h>
+	"Enemy.h"
+
+1490266682 c:\gra final\gra\include\enemy.h
+	<Unit.h>
+
+1490630923 c:\gra final\gra\include\combat.h
+	"Hero.h"
+	"Enemy.h"
+	"Funkcje.h"
+	"Map.h"
+
+1490809749 c:\gra final\gra\include\funkcje.h
+	<iostream>
+	"Hero.h"
+	"Map.h"
+
+1490558975 c:\gra final\gra\include\game.h
+	"Map.h"
+	"Hero.h"
+	"QuestMenager.h"
+	"Combat.h"
+	<fstream>
+	<string>
+
+1490621536 c:\gra final\gra\include\questmenager.h
+	"Map.h"
+	"Hero.h"
+
+1489692676 c:\gra final\gra\include\ekwipunek.h
+	<iostream>
+	"Hero.h"
+	"Map.h"
+
+1490813452 source:c:\gra final\gra\src\combat.cpp
+	"Combat.h"
+	"Room.h"
+	"Funkcje.h"
+	<time.h>
+	<cstdlib>
+	<math.h>
+	<windows.h>
+	<conio.h>
+
+1490822797 source:c:\gra final\gra\src\dialogi.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<string>
+	<conio.h>
+	"Funkcje.h"
+	"Dialogi.h"
+
+1489355383 c:\gra final\gra\include\dialogi.h
+
+1490824287 source:c:\gra final\gra\src\ekwipunek.cpp
+	<iostream>
+	<cstdlib>
+	<sstream>
+	<time.h>
+	<conio.h>
+	"Ekwipunek.h"
+	"Map.h"
+	"Funkcje.h"
+	"Hero.h"
+	"windows.h"
+
+1490730933 source:c:\gra final\gra\src\enemy.cpp
+	"Enemy.h"
+	<fstream>
+	<cstdlib>
+	"Funkcje.h"
+
+1490821631 source:c:\gra final\gra\src\funkcje.cpp
+	<iostream>
+	<cstdlib>
+	<sstream>
+	<time.h>
+	<conio.h>
+	"Map.h"
+	"Funkcje.h"
+	"Hero.h"
+	"windows.h"
+	"Tutorial.h"
+
+1490808944 c:\gra final\gra\include\tutorial.h
+	<iostream>
+	"Funkcje.h"
+
+1490823098 source:c:\gra final\gra\src\game.cpp
+	"Game.h"
+	"Funkcje.h"
+	"Enemy.h"
+	"Ekwipunek.h"
+	"Questy.h"
+	"Dialogi.h"
+	"QuestMenager.h"
+	"Combat.h"
+	<fstream>
+	<iostream>
+	<cstdlib>
+	<string>
+	<conio.h>
+
+1490209126 c:\gra final\gra\include\questy.h
+
+1490860449 source:c:\gra final\gra\src\hero.cpp
+	<string>
+	<iostream>
+	<time.h>
+	<cstdlib>
+	<conio.h>
+	<fstream>
+	<sstream>
+	"Funkcje.h"
+	"Hero.h"
+
+1490812190 source:c:\gra final\gra\src\map.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<conio.h>
+	"Room.h"
+	"Map.h"
+	"Funkcje.h"
+
+1490600946 source:c:\gra final\gra\src\npc.cpp
+	"NPC.h"
+	<fstream>
+	<cstdlib>
+
+1490819924 source:c:\gra final\gra\src\questmenager.cpp
+	"QuestMenager.h"
+	"Map.h"
+	"Funkcje.h"
+	"Hero.h"
+	<fstream>
+	<iostream>
+	<sstream>
+	<cstdlib>
+
+1490209680 source:c:\gra final\gra\src\questy.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	"Questy.h"
+
+1490823098 source:c:\gra final\gra\src\room.cpp
+	"Room.h"
+	"Funkcje.h"
+	"NPC.h"
+	<fstream>
+	<iostream>
+	<cstdlib>
+	<sstream>
+
+1490810452 source:c:\gra final\gra\src\tutorial.cpp
+	<iostream>
+	<windows.h>
+	"Funkcje.h"
+
+1487677964 source:c:\gra final\gra\src\unit.cpp
+	"Unit.h"
+
+1490819854 source:c:\theloststory_release\gra\main.cpp
+	<iostream>
+	<cstdlib>
+	<conio.h>
+	<windows.h>
+	"Map.h"
+	"Unit.h"
+	"Hero.h"
+	"Enemy.h"
+	"Combat.h"
+	"Game.h"
+	"Funkcje.h"
+	"Room.h"
+	"Ekwipunek.h"
+	"QuestMenager.h"
+
+1490311340 c:\theloststory_release\gra\include\map.h
+	<iostream>
+	"Room.h"
+
+1490817127 c:\theloststory_release\gra\include\room.h
+	"NPC.h"
+	<iostream>
+
+1489875184 c:\theloststory_release\gra\include\npc.h
+	<iostream>
+
+1490731256 c:\theloststory_release\gra\include\unit.h
+	<iostream>
+	<string>
+
+1490731366 c:\theloststory_release\gra\include\hero.h
+	<Unit.h>
+	"Enemy.h"
+
+1490266682 c:\theloststory_release\gra\include\enemy.h
+	<Unit.h>
+
+1490630923 c:\theloststory_release\gra\include\combat.h
+	"Hero.h"
+	"Enemy.h"
+	"Funkcje.h"
+	"Map.h"
+
+1490809749 c:\theloststory_release\gra\include\funkcje.h
+	<iostream>
+	"Hero.h"
+	"Map.h"
+
+1490558975 c:\theloststory_release\gra\include\game.h
+	"Map.h"
+	"Hero.h"
+	"QuestMenager.h"
+	"Combat.h"
+	<fstream>
+	<string>
+
+1490621536 c:\theloststory_release\gra\include\questmenager.h
+	"Map.h"
+	"Hero.h"
+
+1489692676 c:\theloststory_release\gra\include\ekwipunek.h
+	<iostream>
+	"Hero.h"
+	"Map.h"
+
+1490813452 source:c:\theloststory_release\gra\src\combat.cpp
+	"Combat.h"
+	"Room.h"
+	"Funkcje.h"
+	<time.h>
+	<cstdlib>
+	<math.h>
+	<windows.h>
+	<conio.h>
+
+1490822797 source:c:\theloststory_release\gra\src\dialogi.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<string>
+	<conio.h>
+	"Funkcje.h"
+	"Dialogi.h"
+
+1489355383 c:\theloststory_release\gra\include\dialogi.h
+
+1491040962 source:c:\theloststory_release\gra\src\ekwipunek.cpp
+	<iostream>
+	<cstdlib>
+	<sstream>
+	<time.h>
+	<conio.h>
+	"Ekwipunek.h"
+	"Map.h"
+	"Funkcje.h"
+	"Hero.h"
+	"windows.h"
+
+1490730933 source:c:\theloststory_release\gra\src\enemy.cpp
+	"Enemy.h"
+	<fstream>
+	<cstdlib>
+	"Funkcje.h"
+
+1490821631 source:c:\theloststory_release\gra\src\funkcje.cpp
+	<iostream>
+	<cstdlib>
+	<sstream>
+	<time.h>
+	<conio.h>
+	"Map.h"
+	"Funkcje.h"
+	"Hero.h"
+	"windows.h"
+	"Tutorial.h"
+
+1490808944 c:\theloststory_release\gra\include\tutorial.h
+	<iostream>
+	"Funkcje.h"
+
+1490823098 source:c:\theloststory_release\gra\src\game.cpp
+	"Game.h"
+	"Funkcje.h"
+	"Enemy.h"
+	"Ekwipunek.h"
+	"Questy.h"
+	"Dialogi.h"
+	"QuestMenager.h"
+	"Combat.h"
+	<fstream>
+	<iostream>
+	<cstdlib>
+	<string>
+	<conio.h>
+
+1490209126 c:\theloststory_release\gra\include\questy.h
+
+1490860449 source:c:\theloststory_release\gra\src\hero.cpp
+	<string>
+	<iostream>
+	<time.h>
+	<cstdlib>
+	<conio.h>
+	<fstream>
+	<sstream>
+	"Funkcje.h"
+	"Hero.h"
+
+1490812190 source:c:\theloststory_release\gra\src\map.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<conio.h>
+	"Room.h"
+	"Map.h"
+	"Funkcje.h"
+
+1490600946 source:c:\theloststory_release\gra\src\npc.cpp
+	"NPC.h"
+	<fstream>
+	<cstdlib>
+
+1490860889 source:c:\theloststory_release\gra\src\questmenager.cpp
+	"QuestMenager.h"
+	"Map.h"
+	"Funkcje.h"
+	"Hero.h"
+	<fstream>
+	<iostream>
+	<sstream>
+	<cstdlib>
+
+1490209680 source:c:\theloststory_release\gra\src\questy.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	"Questy.h"
+
+1490861210 source:c:\theloststory_release\gra\src\room.cpp
+	"Room.h"
+	"Funkcje.h"
+	"NPC.h"
+	<fstream>
+	<iostream>
+	<cstdlib>
+	<sstream>
+
+1490810452 source:c:\theloststory_release\gra\src\tutorial.cpp
+	<iostream>
+	<windows.h>
+	"Funkcje.h"
+
+1487677964 source:c:\theloststory_release\gra\src\unit.cpp
+	"Unit.h"
+

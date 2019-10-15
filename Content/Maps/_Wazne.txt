@@ -1,0 +1,26 @@
+x y index typ
+
+typ :
+1 - mob
+	index :
+	1- rat
+	2- bat
+	3- cave spider
+	4- goblin
+	5- orc
+	6- admiros - boss
+	7- pixie
+	8- wolf
+	9- swamper
+	10- ghost
+	11- floater
+	12- harpy
+	13- skeleton
+	14- golem
+	15-treasurer
+2 - npc
+	index :
+	1-guard lvl1
+3 - skrzynia
+	index :
+	poziom trudnosci(loot = trudnosc*2)

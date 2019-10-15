@@ -1,0 +1,7 @@
+Torn clothes
+0 0 0 0
+Typical torn, dirty clothes
+
+Worker's clothing
+10 5 0 0
+You can get it from commander if you beat lazy worker

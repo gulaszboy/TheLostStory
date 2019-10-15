@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Gra" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Gra" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Gra" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Combat.h" />
+		<Unit filename="include/Dialogi.h" />
+		<Unit filename="include/Ekwipunek.h" />
+		<Unit filename="include/Enemy.h" />
+		<Unit filename="include/Funkcje.h" />
+		<Unit filename="include/Game.h" />
+		<Unit filename="include/Hero.h" />
+		<Unit filename="include/Map.h" />
+		<Unit filename="include/NPC.h" />
+		<Unit filename="include/QuestMenager.h" />
+		<Unit filename="include/Questy.h" />
+		<Unit filename="include/Room.h" />
+		<Unit filename="include/Tutorial.h" />
+		<Unit filename="include/Unit.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mapa_1.txt" />
+		<Unit filename="src/Combat.cpp" />
+		<Unit filename="src/Dialogi.cpp" />
+		<Unit filename="src/Ekwipunek.cpp" />
+		<Unit filename="src/Enemy.cpp" />
+		<Unit filename="src/Funkcje.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/Hero.cpp" />
+		<Unit filename="src/Map.cpp" />
+		<Unit filename="src/NPC.cpp" />
+		<Unit filename="src/QuestMenager.cpp" />
+		<Unit filename="src/Questy.cpp" />
+		<Unit filename="src/Room.cpp" />
+		<Unit filename="src/Tutorial.cpp" />
+		<Unit filename="src/Unit.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

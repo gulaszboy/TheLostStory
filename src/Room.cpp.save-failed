@@ -1,0 +1,150 @@
+#include "Room.h"
+#include <fstream>
+#include <iostream>
+#include <cstdlib>
+#include "Funkcje.h"
+#include <sstream>
+
+using namespace std;
+
+
+void Room::load()
+{
+    ifstream plik;
+    string linia;
+
+  //  nr = 1; // na testy
+
+    switch(nr)
+    {
+		case 1  : plik.open("../Gra/Content/Maps/001/Map/map_6C.txt"); break;
+        case 2  : plik.open("../Gra/Content/Maps/001/Map/map_5C.txt"); break;
+        case 3  : plik.open("../Gra/Content/Maps/001/Map/map_5B.txt"); break;
+        case 4  : plik.open("../Gra/Content/Maps/001/Map/map_5D.txt"); break;
+
+        case 5  : plik.open("../Gra/Content/Maps/001/Map/map_6D.txt"); break;
+        case 6  : plik.open("../Gra/Content/Maps/001/Map/map_4D.txt"); break;
+        case 7  : plik.open("../Gra/Content/Maps/001/Map/map_3C.txt"); break;
+        case 8  : plik.open("../Gra/Content/Maps/001/Map/map_2E.txt"); break;
+
+        case 9  : plik.open("../Gra/Content/Maps/001/Map/map_1D.txt"); break;
+        case 10 : plik.open("../Gra/Content/Maps/001/Map/map_2D.txt"); break;
+        case 11 : plik.open("../Gra/Content/Maps/001/Map/map_1C.txt"); break;
+        case 12 : plik.open("../Gra/Content/Maps/001/Map/map_3B.txt"); break;
+
+        case 13 : plik.open("../Gra/Content/Maps/001/Map/map_2C.txt"); break;
+        case 14 : plik.open("../Gra/Content/Maps/001/Map/map_2B.txt"); break;
+        case 15 : plik.open("../Gra/Content/Maps/001/Map/map_1B.txt"); break;
+        case 16 : plik.open("../Gra/Content/Maps/001/Map/map_1A.txt"); break;
+
+        case 17 : plik.open("../Gra/Content/Maps/001/Map/map_2A.txt"); break;
+        case 18 : plik.open("../Gra/Content/Maps/001/Map/map_3A.txt"); break;
+        case 19 : plik.open("../Gra/Content/Maps/001/Map/map_4A.txt"); break;
+        case 20 : plik.open("../Gra/Content/Maps/001/Map/map_4B.txt"); break;
+
+        case 21 : plik.open("../Gra/Content/Maps/001/Map/map_4C.txt"); break;
+        case 22 : plik.open("../Gra/Content/Maps/001/Map/map_5A.txt"); break;
+        case 23 : plik.open("../Gra/Content/Maps/001/Map/map_6B.txt"); break;
+        case 24 : plik.open("../Gra/Content/Maps/001/Map/map_6A.txt"); break;
+
+    }
+
+    if(plik.good() == false)
+    {
+        cout << "Nie udalo sie otworzyc pliku mapy !";
+        exit(0);
+    }
+
+    for(int i=0;i<11;i++)
+    {
+       getline(plik,linia);
+
+        for(int j=0;j<33;j++)
+        {
+            maptab[i][j] = linia[j];
+        }
+    }
+    plik.close();
+}
+void Room::edit()
+{
+    ifstream plik;
+    int x,y,idx;
+
+    switch(nr)
+    {
+        case 1  : plik.open("../Gra/Content/Maps/001/Addons/001.txt") ; break;
+        case 2  : plik.open("../Gra/Content/Maps/001/Addons/002.txt") ; break;
+        case 3  : plik.open("../Gra/Content/Maps/001/Addons/003.txt") ; break;
+        case 4  : plik.open("../Gra/Content/Maps/001/Addons/004.txt") ; break;
+
+        case 5  : plik.open("../Gra/Content/Maps/001/Addons/005.txt") ; break;
+        case 6  : plik.open("../Gra/Content/Maps/001/Addons/006.txt") ; break;
+        case 7  : plik.open("../Gra/Content/Maps/001/Addons/007.txt") ; break;
+        case 8  : plik.open("../Gra/Content/Maps/001/Addons/008.txt") ; break;
+
+        case 9  : plik.open("../Gra/Content/Maps/001/Addons/009.txt") ; break;
+        case 10 : plik.open("../Gra/Content/Maps/001/Addons/010.txt") ; break;
+        case 11 : plik.open("../Gra/Content/Maps/001/Addons/011.txt") ; break;
+        case 12 : plik.open("../Gra/Content/Maps/001/Addons/012.txt") ; break;
+
+        case 13 : plik.open("../Gra/Content/Maps/001/Addons/013.txt") ; break;
+        case 14 : plik.open("../Gra/Content/Maps/001/Addons/014.txt") ; break;
+        case 15 : plik.open("../Gra/Content/Maps/001/Addons/015.txt") ; break;
+        case 16 : plik.open("../Gra/Content/Maps/001/Addons/016.txt") ; break;
+
+        case 17 : plik.open("../Gra/Content/Maps/001/Addons/017.txt") ; break;
+        case 18 : plik.open("../Gra/Content/Maps/001/Addons/018.txt") ; break;
+        case 19 : plik.open("../Gra/Content/Maps/001/Addons/019.txt") ; break;
+        case 20 : plik.open("../Gra/Content/Maps/001/Addons/020.txt") ; break;
+
+        case 21 : plik.open("../Gra/Content/Maps/001/Addons/021.txt") ; break;
+        case 22 : plik.open("../Gra/Content/Maps/001/Addons/022.txt") ; break;
+        case 23 : plik.open("../Gra/Content/Maps/001/Addons/023.txt") ; break;
+        case 24 : plik.open("../Gra/Content/Maps/001/Addons/024.txt") ; break;
+    }
+
+    if(plik.good() == false)
+    {
+        cout << "Nie udalo sie wczytac dodatkowego pliku mapy !";
+        exit(0);
+    }
+
+    string linia;
+    while(getline(plik,linia))
+    {
+        istringstream str(linia);
+        str >> x >> y >> idx;
+
+        switch(idx)
+        {
+            case 1 : maptab[y][x] = '\14';
+        }
+
+    }
+
+    plik.close();
+
+}
+void Room::get_rdy(int numer)
+{
+    nr = numer;
+    load();
+    edit();
+}
+Room::Room()
+{
+}
+void Room::show()
+{
+    for(int i=0;i<11;i++)
+    {
+        for(int j=0;j<33;j++)
+        {
+            if (maptab[i][j] == '\14') red_char('\14');
+            else if (maptab[i][j] == 'x' ) cout << '\178';
+            else cout << maptab[i][j];
+        }
+        cout << endl;
+    }
+}

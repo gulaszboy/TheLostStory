@@ -1,0 +1,11 @@
+0000000000000              00000000
+0xxxxxxxxxxx|              |xxxxxx0
+                              |xxx0
+0xxxxxxxxx|                     |x0
+0xxxxxxxxxx|                     |0
+0xxxxxxxxxxx|                   |x0
+0xxxxxxxxxx|                  |xxx0
+   |xxxxx|                      |x0
+   |xxxxxx|                   |xxx0
+   |xxxxxxxx|________________|xxxx0
+00000000000000000000000000000000000

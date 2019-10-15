@@ -1,0 +1,15 @@
+Wooden stick
+5 0 0
+Stick that have been found by the hero in the mine
+
+Pickaxe
+8 0 0
+Simple pickaxe
+
+Rusty sword
+15 0 0
+Weapon that is being protected by goblin
+
+Jagged axe
+20 2 0
+You can find it in orc's warehouse

@@ -1,0 +1,5 @@
+1. Nazwa
+2. Zycie 
+3. Atak
+4. Szansa na unik
+5. Szansa na kryta

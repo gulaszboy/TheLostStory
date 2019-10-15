@@ -1,0 +1,23 @@
+map change :
+
+	xroomu yroomu typ 
+	x y index typobiektu 
+
+	xroomu yroomu typ 
+	starynrdialogu nowynrdialogu
+
+	typ:
+		1 - Spawn
+		2 - Change dialog
+
+warunki
+	typ index
+
+map clear
+	xroomu yroomu
+	typ
+
+path
+	warunek 1 combat z kim
+	x y typ
+	linia
