@@ -14,4 +14,17 @@ Game I created for Erasmus+ coding competiton.
 
 Breakes every rule of programing ever created, yet fully works :D
 
+Humans and elves have always lived in peace, they worked with
+each other and lived in the same cities. It has changed with the
+orc raid, their strength was large enough to beat the Old kingdoms...
+The elves left the people, and hidden in the woods,
+they became wild forest elves. There were clumsy among people
+who were killing each other... 
+Some were trying to oppose the orcs, but they weren't strong 
+enough to deal with them. They were caught by orcs and passed to
+heavy work in mines, all insubordination was rewarded with a 
+severe flogging. People living in the caves for years slowly 
+got used to living in the dark. 
+Everything changes with the accidental killing of an orc by a young man... 
+
 One commit as i didnt know what git was at the time
