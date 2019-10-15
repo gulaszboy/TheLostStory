@@ -28,3 +28,17 @@ got used to living in the dark.
 Everything changes with the accidental killing of an orc by a young man... 
 
 One commit as i didnt know what git was at the time
+
+--------------------------------
+
+Screenshots
+
+![Alt text](screenshots/Screenshot_1.png)
+
+![Alt text](screenshots/Screenshot_2.png)
+
+![Alt text](screenshots/Screenshot_3.png)
+
+![Alt text](screenshots/Screenshot_4.png)
+
+![Alt text](screenshots/Screenshot_5.png)
